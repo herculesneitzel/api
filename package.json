@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/sever.js"
+  },
+  "keywords": [],
+  "author": "Hércules Neitzel",
+  "license": "ISC",
+  "description": "Api desenvolvida no programa explorer",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
